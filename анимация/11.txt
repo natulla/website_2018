@@ -1,0 +1,37 @@
+animate.css файл с готовой анимацаей
+wow.js скрип с запуском анимацеей прои скроле
+
+Приемр <div class="Нужное_вам_назване wow Назване_анимации" data-wow-offset="До активаце с нуизу">
+Вот так пример
+<div class="top wow fadeInLeft" data-wow-offset="300">
+
+
+
+
+Подключение
+<link type="text/css" rel="stylesheet" href="animate.css">
+
+
+
+Wow js вставить в 
+<body>
+<script src="wow.js"></script>
+<script>
+ wow = new WOW(
+{
+boxClass:     'wow',
+animateClass: 'animated',
+offset:       0,          
+mobile:       false,
+live:         true
+})
+wow.init();
+</script>
+
+
+</body>
+
+
+--------------------------
+mobile:       false,       -----Работа анимации на телефоне 
+live:         true -----Обробтка в рели  
